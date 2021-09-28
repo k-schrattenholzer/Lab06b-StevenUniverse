@@ -142,4 +142,37 @@ const characters = [
         first_appearance: 'Laser Light Cannon',
         voiced_by: 'Tom Scharpling'
     },
+    {
+        id: 0014,
+        name: 'Lars Barriga',
+        img: 'https://steven-universe.fandom.com/wiki/Lars_Barriga?file=Lars+Barriga+-Work+Clothes-.png',
+        species: 'Human (*)',
+        gem_type: 'n/a',
+        weapon: 'none',
+        age: 'unknown',
+        first_appearance: 'Pilot',
+        voiced_by: 'Matthew Moy | Mason Cook'
+    },
+    {
+        id: 0015,
+        name: 'Sadie Miller',
+        img: 'https://steven-universe.fandom.com/wiki/Sadie_Miller?file=Sadie+Miller.png',
+        species: 'Human',
+        gem_type: 'n/a',
+        weapon: 'none',
+        age: '~ 20',
+        first_appearance: 'Pilot',
+        voiced_by: 'Kate Micucci'
+    },
+    {
+        id: 0016,
+        name: 'Connie Maheswaran',
+        img: 'https://steven-universe.fandom.com/wiki/Connie_Maheswaran?file=Connie+%28SUF2%29.png',
+        species: 'Human',
+        gem_type: 'n/a',
+        weapon: `Pearl's Sword | Rose's Sword | Connie's Sword`,
+        age: '~ 15',
+        first_appearance: 'Bubble Buddies',
+        voiced_by: 'Grace Rolek'
+    },
 ]
