@@ -5,7 +5,21 @@ const port = process.env.port || 3000;
 const { myNumber } = require('./utils.js');
 
 app.get('/', (req, res) => {
-  res.send(`Hello World! ${myNumber}`)
+  res.send({
+      myFavoriteNumber:`My favorite number is ${myNumber}`
+    })
+})
+
+app.get('/quotes', (req, res) => {
+  res.send({
+      myFavoriteNumber:`/quotes`
+    })
+})
+
+app.get('/characters', (req, res) => {
+  res.send({
+      myFavoriteNumber:'/characters'`
+    })
 })
 
 app.listen(port, () => {
