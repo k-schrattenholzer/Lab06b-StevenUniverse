@@ -8,7 +8,8 @@ const { characters, quotes } = require('./data.js');
 
 app.get('/', (req, res) => {
     res.json({
-        "Hi!":"Hello"
+        "Hi!":"Hello",
+        "CurrentRoutes": "/quotes & /characters & /characters/id"
     })
 })
 
