@@ -5,11 +5,16 @@ const port = process.env.port || 3000;
 const { characters, quotes } = require('./data.js');
 
 app.get('/quotes', (req, res) => {
-  res.send(quotes)
+    res.json(quotes)
 })
 
 app.get('/characters', (req, res) => {
-  res.send(characters)
+    res.json(characters)
+})
+
+app.get('/characters/:id', (req, res) => {
+    const matchingChar = characters.find(gem => gem.id === Number(req.params.id));
+    res.json(matchingChar)
 })
 
 app.listen(port, () => {

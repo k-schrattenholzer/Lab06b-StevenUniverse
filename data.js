@@ -2,7 +2,7 @@ const characters = [
     {
         id: 0001,
         name: 'Garnet',
-        img: 'https://static.wikia.nocookie.net/steven-universe/images/2/27/Garnet_With_Rings.png/revision/latest/scale-to-width-down/1000?cb=20201009220822',
+        img: 'https://static.wikia.nocookie.net/steven-universe/images/2/27/Garnet_With_Rings.png/',
         species: 'Gem',
         gem_type: 'Fusion',
         weapon: 'Gauntlets',
