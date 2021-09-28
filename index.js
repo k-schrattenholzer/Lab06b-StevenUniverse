@@ -2,12 +2,10 @@ const express = require('express');
 const app = express();
 const port = process.env.port || 3000;
 
-const { characters } = require('./data.js');
+const { characters, quotes } = require('./data.js');
 
 app.get('/quotes', (req, res) => {
-  res.send({
-      myFavoriteNumber:`/quotes`
-    })
+  res.send(quotes)
 })
 
 app.get('/characters', (req, res) => {
