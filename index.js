@@ -18,7 +18,7 @@ app.get('/quotes', (req, res) => {
 
 app.get('/characters', (req, res) => {
   res.send({
-      myFavoriteNumber:'/characters'`
+      myFavoriteNumber:`/characters`
     })
 })
 
