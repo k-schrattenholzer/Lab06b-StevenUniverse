@@ -6,6 +6,12 @@ const port = process.env.PORT || 3000;
 
 const { characters, quotes } = require('./data.js');
 
+app.get('/', (req, res) => {
+    res.json({
+        "Hi!":"Hello"
+    })
+})
+
 app.get('/quotes', (req, res) => {
     res.json(quotes)
 })
