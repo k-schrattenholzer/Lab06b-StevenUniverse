@@ -176,3 +176,7 @@ const characters = [
         voiced_by: 'Grace Rolek'
     },
 ]
+
+module.exports = {
+    characters
+}

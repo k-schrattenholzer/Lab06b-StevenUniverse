@@ -2,13 +2,7 @@ const express = require('express');
 const app = express();
 const port = process.env.port || 3000;
 
-const { myNumber } = require('./utils.js');
-
-app.get('/', (req, res) => {
-  res.send({
-      myFavoriteNumber:`My favorite number is ${myNumber}`
-    })
-})
+const { characters } = require('./data.js');
 
 app.get('/quotes', (req, res) => {
   res.send({
@@ -17,9 +11,7 @@ app.get('/quotes', (req, res) => {
 })
 
 app.get('/characters', (req, res) => {
-  res.send({
-      myFavoriteNumber:`/characters`
-    })
+  res.send(characters)
 })
 
 app.listen(port, () => {
