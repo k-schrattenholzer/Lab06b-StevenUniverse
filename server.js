@@ -20,6 +20,11 @@ app.get('/quotes', (req, res) => {
     res.json(quotes)
 })
 
+app.get('/quotes/:id', (req, res) => {
+    const matchingQuote = quotes.find(quote => quote.id === Number(req.params.id));
+    res.json(matchingQuote)
+})
+
 app.get('/characters', (req, res) => {
     res.json(characters)
 })

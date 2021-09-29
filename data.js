@@ -225,8 +225,7 @@ const quotes = [
         id: 7890,
         character: 'Smokey Quartz',
         character_id: 3,
-        quote:`Well, sometimes you save all the people, but the roller coaster still crashes into the ocean.
-        (The roller coaster explodes in the water.) And that's okay.`
+        quote:`Well, sometimes you save all the people, but the roller coaster still crashes into the ocean.  (The roller coaster explodes in the water.) And that's okay.`
     },
     {
         id: 7890,
@@ -292,11 +291,7 @@ const quotes = [
         id: 7880,
         character: 'Sapphire',
         character_id: 17,
-        quote:`	
-        Ruby: How am I gonna save you?
-        You already did.
-        Ruby: What!?
-        You already saved me.`
+        quote:`Ruby: How am I gonna save you? Sapphire: You already did. Ruby: What!? Sapphire: You already saved me.`
     },
     {
         id: 7879,
